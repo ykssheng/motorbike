@@ -447,9 +447,13 @@ function twentyseventeen_scripts() {
 		$twentyseventeen_l10n['icon']           = twentyseventeen_get_svg( array( 'icon' => 'angle-down', 'fallback' => true ) );
 	}
 
+	wp_enqueue_script( 'basic-jquery', get_template_directory_uri() . '/assets/js/jquery-3.1.1.min.js', array(), '20151215', true );
+
 	wp_enqueue_script( 'twentyseventeen-global', get_theme_file_uri( '/assets/js/global.js' ), array( 'jquery' ), '1.0', true );
 
 	wp_enqueue_script( 'jquery-scrollto', get_theme_file_uri( '/assets/js/jquery.scrollTo.js' ), array( 'jquery' ), '2.1.2', true );
+
+	wp_enqueue_script( 'basic-mainjs', get_theme_file_uri( '/assets/js/main.js' ), array( 'jquery' ), '2.1.2', true );
 
 	wp_localize_script( 'twentyseventeen-skip-link-focus-fix', 'twentyseventeenScreenReaderText', $twentyseventeen_l10n );
 
@@ -584,3 +588,8 @@ require get_parent_theme_file_path( '/inc/customizer.php' );
  * SVG icons functions and filters.
  */
 require get_parent_theme_file_path( '/inc/icon-functions.php' );
+
+/**
+ * WP Admin page custom function : Dropdown custom taxonomy instead of multiple-check box.
+ */
+require get_parent_theme_file_path( '/inc/admin-custom-functions.php' );
