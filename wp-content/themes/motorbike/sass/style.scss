@@ -219,3 +219,46 @@ h4{
 .image_wrapper{
 	height: 150px;
 }
+
+.loan_all{
+	width: 100%;
+	display: inline-block;  
+	background-color: #ededed;
+	padding: 15px;
+	margin-bottom: 15px;
+
+	h2{
+		margin-bottom: 15px;
+	}
+
+	label{
+		margin-bottom: 20px;
+	}
+
+	input{
+		padding: 3px;
+		margin-top: 10px;
+	}
+
+	textarea{
+		margin-top: 10px;
+	}
+
+	select{
+		width: 100%;
+		height: 32px;
+		margin-top: 10px;
+	}
+}
+
+.loan_personal{
+
+}
+
+.loan_company{
+
+}
+
+.required{
+	color: red;
+}

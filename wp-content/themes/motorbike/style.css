@@ -5275,4 +5275,27 @@ h4 {
 .image_wrapper {
   height: 150px; }
 
+.loan_all {
+  width: 100%;
+  display: inline-block;
+  background-color: #ededed;
+  padding: 15px;
+  margin-bottom: 15px; }
+  .loan_all h2 {
+    margin-bottom: 15px; }
+  .loan_all label {
+    margin-bottom: 20px; }
+  .loan_all input {
+    padding: 3px;
+    margin-top: 10px; }
+  .loan_all textarea {
+    margin-top: 10px; }
+  .loan_all select {
+    width: 100%;
+    height: 32px;
+    margin-top: 10px; }
+
+.required {
+  color: red; }
+
 /*# sourceMappingURL=style.css.map */
