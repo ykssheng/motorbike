@@ -49,7 +49,7 @@
 <div class="col-lg-6">
 <div class="loan_all loan col-lg-6">
 <h2>Loan Information</h2>
-<label> Bike Registration Number<span class="required">*</span>
+<label> Bike Model/Registration Number<span class="required">*</span>
 [text* BikeRegistrationNumber id:bike_registration_number]</label>
 
 <label> Bike Condition<span class="required">*</span>
@@ -67,5 +67,22 @@
 </div>
 
 
+<div class="col-lg-6">
+<div class="loan_all loan_attachment">
+<h2>Attachment</h2>
+<label> Scan Copy of IC (Front) <span class="required">*</span>
+    [file* ICFront limit:2000000 id:ic_front] </label>
 
-[submit "Send"]
+<label> Scan Copy of IC (Back) <span class="required">*</span>
+    [file* ICBack limit:2000000 id:ic_back]</label>
+
+<label> Scan Copy 0f Salary Slip OR SSM (PaySlip1)<span class="required">*</span>
+    [file* Payslip1 limit:2000000 id:payslip_1] </label>
+
+<label> Scan Copy 0f Salary Slip OR SSM (PaySlip2)<span class="required">*</span>
+    [file* Payslip2 limit:2000000 id:payslip_2] </label>
+</div>
+</div>
+
+
+[submit id:loan_submit_button "Submit"]

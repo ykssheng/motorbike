@@ -5298,4 +5298,12 @@ h4 {
 .required {
   color: red; }
 
+.wpcf7 #loan_submit_button {
+  position: absolute;
+  bottom: 0;
+  right: 0; }
+.wpcf7 form {
+  position: relative;
+  display: inline-block; }
+
 /*# sourceMappingURL=style.css.map */
