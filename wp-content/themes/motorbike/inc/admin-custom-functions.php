@@ -67,5 +67,13 @@ function brand_save_postdata( $post_id ) {
 }
 /* Do something with the data entered */
 add_action( 'save_post', 'brand_save_postdata' );
+?>
 
+
+<?php
+// Custom var_dump() with highlighted text.
+
+function custom_var_dump($data){
+    highlight_string("<?php\n\$data =\n" . var_export($data, true) . ";\n?>");
+}
 ?>

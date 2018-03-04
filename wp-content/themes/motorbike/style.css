@@ -5269,4 +5269,10 @@ h4 {
   font-weight: 500;
   color: #00b4ba; }
 
+.section_new_arrivals {
+  display: inline-block; }
+
+.image_wrapper {
+  height: 150px; }
+
 /*# sourceMappingURL=style.css.map */
