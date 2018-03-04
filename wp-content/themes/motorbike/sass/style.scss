@@ -126,48 +126,33 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "responsive/responsive-master";
 
 @font-face {
-	font-family: 'Rubik';
-	src: url("fonts/Rubik-Black.otf");
-	font-weight: 900;
-	font-style: normal;
+	font-family: 'Quicksand';
+	src: url("fonts/Quicksand-Bold.ttf");
 }
 
 @font-face {
-	font-family: 'Rubik';
-	src: url("fonts/Rubik-Bold.otf");
-	font-weight: 700;
-	font-style: normal;
+	font-family: 'Quicksand';
+	src: url("fonts/Quicksand-Medium.ttf");
 }
 
 @font-face {
-	font-family: 'Rubik';
-	src: url("fonts/Rubik-Medium.otf");
-	font-weight: 500;
-	font-style: normal;
+	font-family: 'Quicksand';
+	src: url("fonts/Quicksand-Regular.ttf");
 }
 
 @font-face {
-	font-family: 'Rubik';
-	src: url("fonts/Rubik-Regular.otf");
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-	font-family: 'Rubik';
-	src: url("fonts/Rubik-Light.otf");
-	font-weight: 100;
-	font-style: normal;
+	font-family: 'Quicksand';
+	src: url("fonts/Quicksand-Light.ttf");
 }
 
 html {
-	font-family: 'Rubik', sans-serif !important;
+	font-family: 'Quicksand', sans-serif !important;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
 }
 
 samp {
-	font-family: 'Rubik', monospace, monospace !important; 
+	font-family: 'Quicksand', monospace, monospace !important; 
 }
 
 body,
@@ -176,15 +161,15 @@ input,
 select,
 span,
 textarea {
-	font-family: 'Rubik', sans-serif !important; 
+	font-family: 'Quicksand', sans-serif !important; 
 }
 
 pre {
-	font-family: 'Rubik', monospace !important; 
+	font-family: 'Quicksand', monospace !important; 
 }
 
 code, kbd, tt, var {
-	font-family: 'Rubik', monospace !important; 
+	font-family: 'Quicksand', monospace !important; 
 }
 
 a{
