@@ -1,6 +1,6 @@
 <div class="col-lg-6">
 <div class="loan_all loan_personal">
-<h2>Personal Information</h2>
+<h2>1. Personal Information</h2>
 <label> Full Name<span class="required">*</span>
     [text* FullName] </label>
 
@@ -22,17 +22,20 @@
 </div>
 
 
+
+
+
 <div class="col-lg-6">
 <div class="loan_all loan_company col-lg-6">
-<h2>Company Information</h2>
+<h2>2. Company Information</h2>
 <label> Company Name<span class="required">*</span>
 [text CompanyName id:company_name]</label>
 
-<label> Company Address<span class="required">*</span>
-[textarea* CompanyAddress id:company_address]</label>
-
 <label> Contact Number<span class="required">*</span>
 [tel CompanyContact id:company_contact]</label>
+
+<label> Company Address<span class="required">*</span>
+[textarea* CompanyAddress id:company_address]</label>
 
 <label> Employment Status<span class="required">*</span>
 [select* EmploymentStatus id:employment_status include_blank "Employed" "Self-Employed"]</label>
@@ -46,9 +49,11 @@
 </div>
 
 
+
+
 <div class="col-lg-6">
 <div class="loan_all loan col-lg-6">
-<h2>Loan Information</h2>
+<h2>3. Loan Information</h2>
 <label> Bike Model/Registration Number<span class="required">*</span>
 [text* BikeRegistrationNumber id:bike_registration_number]</label>
 
@@ -67,20 +72,61 @@
 </div>
 
 
+
 <div class="col-lg-6">
 <div class="loan_all loan_attachment">
-<h2>Attachment</h2>
+<h2>4. Attachment</h2>
 <label> Scan Copy of IC (Front) <span class="required">*</span>
-    [file* ICFront limit:2000000 id:ic_front] </label>
+    [file* ICFront limit:2000000 id:ic_front]<label class="custom-file-label" for="ic_front"><strong>Choose a file</strong></label></label>
 
 <label> Scan Copy of IC (Back) <span class="required">*</span>
-    [file* ICBack limit:2000000 id:ic_back]</label>
+    [file* ICBack limit:2000000 id:ic_back]<label class="custom-file-label" for="ic_back"><strong>Choose a file</strong></label></label>
 
 <label> Scan Copy 0f Salary Slip OR SSM (PaySlip1)<span class="required">*</span>
-    [file* Payslip1 limit:2000000 id:payslip_1] </label>
+    [file* Payslip1 limit:2000000 id:payslip_1] <label class="custom-file-label" for="payslip_1"><strong>Choose a file</strong></label></label>
 
 <label> Scan Copy 0f Salary Slip OR SSM (PaySlip2)<span class="required">*</span>
-    [file* Payslip2 limit:2000000 id:payslip_2] </label>
+    [file* Payslip2 limit:2000000 id:payslip_2] <label class="custom-file-label" for="payslip_2"><strong>Choose a file</strong></label></label>
+</div>
+</div>
+
+
+
+<div class="col-lg-6">
+<div class="loan_all loan_emergency_1">
+<h2>5. Emergency Contact 1</h2>
+<label> Full Name (Immediate Family or Relatives)<span class="required">*</span>
+[text Emergency1FullName id:emergency_1_full_name]</label>
+
+<label> Current Home Address<span class="required">*</span>
+[textarea* Emergency1Address id:emergency_1_address]</label>
+
+<label> Contact Number<span class="required">*</span>
+[tel Emergency1Contact id:id:emergency_1_contact]</label>
+
+<label> Relationship <span class="required">*</span>
+[text* Emergency1Relationship id:id:emergency_1_relationship]</label>
+</div>
+</div>
+
+
+
+
+
+<div class="col-lg-6">
+<div class="loan_all loan_emergency_2 ">
+<h2>6. Emergency Contact 2</h2>
+<label> Full Name (Immediate Family or Relatives)<span class="required">*</span>
+[text Emergency2FullName id:emergency_2_full_name]</label>
+
+<label> Current Home Address<span class="required">*</span>
+[textarea* Emergency2Address id:emergency_2_address]</label>
+
+<label> Contact Number<span class="required">*</span>
+[tel Emergency2Contact id:id:emergency_2_contact]</label>
+
+<label> Relationship <span class="required">*</span>
+[text* Emergency2Relationship id:id:emergency_2_relationship]</label>
 </div>
 </div>
 
