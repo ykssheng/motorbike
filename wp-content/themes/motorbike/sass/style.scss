@@ -195,7 +195,7 @@ p{
 h1{
 	margin: 0;
 	font-size: 60px;
-	font-weight: 500;
+	font-weight: 700;
 }
 
 h2{
@@ -207,13 +207,15 @@ h2{
 h4{
 	margin: 0;
 	font-size: 14px;
-	font-weight: 500;
-	// text-transform: uppercase;
-	color: #00b4ba;
+	font-weight: 300;
 }
 
-.section_new_arrivals{
+#section_new_arrivals{
 	display: inline-block;
+
+	h2{
+		margin: 20px 0px 20px 0px;
+	}
 }
 
 .image_wrapper{
@@ -230,7 +232,7 @@ h4{
 
 	h2{
 		margin-bottom: 15px;
-		background-color: #00b4ba;
+		background-color: #222;
 		color: white;
 		padding: 5px 5px 5px 10px;
 		border-radius: 5px;
@@ -289,7 +291,7 @@ h4{
 			border: 0;
 			border-color: transparent;
 			border-radius: 3px;
-			background: #00b4ba;
+			background: #222;
 			box-shadow: none;
 			color: white;
 			font-size: 17px;
@@ -301,8 +303,7 @@ h4{
 			&:hover{
 				border-color: transparent;
 				box-shadow: none;
-				background: powderblue;
-				color: black;
+				background: #767676;
 			}
 		}
 
@@ -316,7 +317,7 @@ h4{
 		}
 
 		.custom-file-label{
-			background: #00b4ba;
+			background: #222;
 			border-radius: 3px;
 			padding: 5px;
 			color: white;
@@ -326,5 +327,17 @@ h4{
 				cursor: pointer;
 			}
 		}
+	}
+}
+.custom_button{
+	transition: all 300ms ease-in-out;
+	display: inline-block;
+	padding: 5px 10px 5px 10px;
+	border-radius: 3px;
+	background: #222;
+	color: white;
+
+	&:hover{
+		background: #767676;
 	}
 }

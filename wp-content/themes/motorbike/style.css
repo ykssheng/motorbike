@@ -5256,7 +5256,7 @@ p {
 h1 {
   margin: 0;
   font-size: 60px;
-  font-weight: 500; }
+  font-weight: 700; }
 
 h2 {
   margin: 0;
@@ -5266,11 +5266,12 @@ h2 {
 h4 {
   margin: 0;
   font-size: 14px;
-  font-weight: 500;
-  color: #00b4ba; }
+  font-weight: 300; }
 
-.section_new_arrivals {
+#section_new_arrivals {
   display: inline-block; }
+  #section_new_arrivals h2 {
+    margin: 20px 0px 20px 0px; }
 
 .image_wrapper {
   height: 150px; }
@@ -5284,7 +5285,7 @@ h4 {
   border-radius: 10px; }
   .loan_all h2 {
     margin-bottom: 15px;
-    background-color: #00b4ba;
+    background-color: #222;
     color: white;
     padding: 5px 5px 5px 10px;
     border-radius: 5px; }
@@ -5318,7 +5319,7 @@ h4 {
     border: 0;
     border-color: transparent;
     border-radius: 3px;
-    background: #00b4ba;
+    background: #222;
     box-shadow: none;
     color: white;
     font-size: 17px;
@@ -5329,8 +5330,7 @@ h4 {
     .wpcf7 form #loan_submit_button:hover {
       border-color: transparent;
       box-shadow: none;
-      background: powderblue;
-      color: black; }
+      background: #767676; }
   .wpcf7 form .wpcf7-file {
     width: 0.1px;
     height: 0.1px;
@@ -5339,12 +5339,22 @@ h4 {
     position: absolute;
     z-index: -1; }
   .wpcf7 form .custom-file-label {
-    background: #00b4ba;
+    background: #222;
     border-radius: 3px;
     padding: 5px;
     color: white;
     margin-top: 10px; }
     .wpcf7 form .custom-file-label:hover {
       cursor: pointer; }
+
+.custom_button {
+  transition: all 300ms ease-in-out;
+  display: inline-block;
+  padding: 5px 10px 5px 10px;
+  border-radius: 3px;
+  background: #222;
+  color: white; }
+  .custom_button:hover {
+    background: #767676; }
 
 /*# sourceMappingURL=style.css.map */

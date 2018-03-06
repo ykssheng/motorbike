@@ -24,16 +24,17 @@ get_header();  ?>
 						foreach($new_arrivals as $post): 
 							setup_postdata($post); ?>
 						
-						<a href="<?php the_permalink(); ?>" class="new_arrivals_link col-lg-3 col-md-6 col-12">
+						<div class="new_arrivals_link col-lg-3 col-md-6 col-12">
 							<div class="new_arrivals_wrapper">
 								<div class="image_wrapper">
 									<?php the_post_thumbnail( 'medium' ); ?>
 									
 									<!-- <img src="<?php the_post_thumbnail_url('medium'); ?>"> -->
 								</div>
-								<h3><?php the_title(); ?></h3>
+								<h2><?php the_title(); ?></h2>
+								<a href="<?php the_permalink(); ?>" ><div class="custom_button">View Details</div></a>
 							</div>
-						</a>
+						</div>
 
 				<?php
 					endforeach;
