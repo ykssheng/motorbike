@@ -24,7 +24,7 @@ get_header();  ?>
 						foreach($new_arrivals as $post): 
 							setup_postdata($post); ?>
 						
-						<div class="new_arrivals_link col-lg-3 col-md-6 col-12">
+						<div class="new_arrivals_link col-lg-4 col-md-6 col-12">
 							<div class="new_arrivals_wrapper">
 								<div class="image_wrapper">
 									<?php the_post_thumbnail( 'medium' ); ?>

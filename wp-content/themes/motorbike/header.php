@@ -35,7 +35,7 @@
 				</div><!-- .wrap -->
 			</div><!-- .navigation-top -->
 		<?php endif; ?>
-		
+		<div class="background_gradient"></div>
 		<?php get_template_part( 'template-parts/header/header', 'image' ); ?>
 
 	</header><!-- #masthead -->

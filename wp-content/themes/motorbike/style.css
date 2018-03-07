@@ -5206,24 +5206,24 @@ object {
   .hidden-print {
     display: none !important; } }
 @font-face {
-  font-family: 'Quicksand';
-  src: url("fonts/Quicksand-Bold.ttf"); }
+  font-family: 'Roboto';
+  src: url("fonts/Roboto-Bold.ttf"); }
 @font-face {
-  font-family: 'Quicksand';
-  src: url("fonts/Quicksand-Medium.ttf"); }
+  font-family: 'Roboto';
+  src: url("fonts/Roboto-Medium.ttf"); }
 @font-face {
-  font-family: 'Quicksand';
-  src: url("fonts/Quicksand-Regular.ttf"); }
+  font-family: 'Roboto';
+  src: url("fonts/Roboto-Regular.ttf"); }
 @font-face {
-  font-family: 'Quicksand';
-  src: url("fonts/Quicksand-Light.ttf"); }
+  font-family: 'Roboto';
+  src: url("fonts/Roboto-Light.ttf"); }
 html {
-  font-family: 'Quicksand', sans-serif !important;
+  font-family: 'Roboto', sans-serif !important;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%; }
 
 samp {
-  font-family: 'Quicksand', monospace, monospace !important; }
+  font-family: 'Roboto', monospace, monospace !important; }
 
 body,
 button,
@@ -5231,13 +5231,13 @@ input,
 select,
 span,
 textarea {
-  font-family: 'Quicksand', sans-serif !important; }
+  font-family: 'Roboto', sans-serif !important; }
 
 pre {
-  font-family: 'Quicksand', monospace !important; }
+  font-family: 'Roboto', monospace !important; }
 
 code, kbd, tt, var {
-  font-family: 'Quicksand', monospace !important; }
+  font-family: 'Roboto', monospace !important; }
 
 a {
   text-decoration: none;
@@ -5356,5 +5356,22 @@ h4 {
   color: white; }
   .custom_button:hover {
     background: #767676; }
+
+.background_gradient {
+  z-index: 99;
+  background-color: #000000;
+  background-size: 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  bottom: 75px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.45) 100%, black 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#000000',GradientType=0 ); }
+
+.site-branding {
+  z-index: 100; }
+  .site-branding .site-title {
+    font-size: 4.25rem; }
 
 /*# sourceMappingURL=style.css.map */
